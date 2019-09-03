@@ -1,0 +1,33 @@
+import java.util.*;
+
+class Student{
+    int id;
+    String name;
+    int age;
+    
+    
+    boolean updateprofile(String newName)
+    {
+        name = newName;
+        return true;
+    }
+    
+}
+public class Class
+{
+    public static void main(String args[])
+    {
+        System.out.println("this is the main block");
+        Student s = new Student();
+        s.id = 20;
+        s.name = "joan";
+        
+        s.updateprofile("john");
+        
+        System.out.println("id is " + s.id + "of  "  +  s.name);
+        
+        s.age = 34;
+    }
+}
+        
+    
