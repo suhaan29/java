@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class Calculate{
+   int a;
+   int b;
+   int c;
+   public Calculate(int x, int y)
+   {
+      x = a;
+      y = b;
+         c = a+ b;
+   System.out.println(c);
+   }
+
+   }
+   
+   public class Test;
+   {
+     public static void main(String args[])
+      {
+         Calculate c = new Calculate(2 , 5);
+       }
+       
+       
+       }
