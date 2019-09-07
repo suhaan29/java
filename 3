@@ -1,1 +1,31 @@
-4
+import java.util.*;
+
+public class Main{
+    int a = 12_3; // we can actually put underscores and nothing will happen;
+    int b =  0x41; // since it is preceded by 0x it would be a hexadecimal value
+    int c = 0b00010011;
+    long cv = 2332737;//we put 0b to specify hexadecimal
+    //okay now coming to characters
+    char x = 'A'; // any normal person would dp it
+    char v = 65; // meh okay unicode 
+    char q = '\u0041';
+    long bf = b; //this is implicit casting cause long is greater 
+    int vb = a;
+    double avg = (double)(2 + 3)/2;
+    
+    public void print()
+    {
+        System.out.println("a = " + a  + x  + v  + q);
+        System.out.println("b = " + b);
+        System.out.println("c = " + c);
+        System.out.println(""+avg + bf); // in case of actual integers it will add you have to print seperately or we have to 
+        // if the compiler notice any string int the system.out.println it will do some tei
+    }
+    
+    public static void main(String args[])
+    {
+        Main m = new Main();
+        m.print();
+    }
+    
+}
